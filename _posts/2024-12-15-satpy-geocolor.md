@@ -18,7 +18,7 @@ pip install satpy[generic_image]
 
 ## Data download
 
-If using L2 data, it needs to be `ABI-L2-MCMIPC` for CONUS, or equivalent for other regions. For example, navigate to https://noaa-goes16.s3.amazonaws.com/index.html#ABI-L2-MCMIPC/2024/350/15/ and download [this file](https://noaa-goes16.s3.amazonaws.com/ABI-L2-MCMIPC/2024/350/15/OR_ABI-L2-MCMIPC-M6_G16_s20243501531173_e20243501533558_c20243501534081.nc).
+If using L2 data, it needs to be `ABI-L2-MCMIPC` for CONUS, or equivalent for other regions. For example, navigate to [AWS](https://noaa-goes16.s3.amazonaws.com/index.html#ABI-L2-MCMIPC/2024/350/15/) and download [this file](https://noaa-goes16.s3.amazonaws.com/ABI-L2-MCMIPC/2024/350/15/OR_ABI-L2-MCMIPC-M6_G16_s20243501531173_e20243501533558_c20243501534081.nc).
 
 ## Generation
 
