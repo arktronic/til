@@ -1,11 +1,13 @@
 ---
 date: 2024-12-15
-title: "Creating a GeoColor image from GOES-West/GOES-East L2 data using SatPy"
+title: Creating a GeoColor image from GOES-West/GOES-East L2 data using SatPy
 ---
+
+# Creating a GeoColor image from GOES-West/GOES-East L2 data using SatPy
 
 After a significant amount of trial and error, I figured out how to use SatPy to create a GeoColor image from GOES satellites. I tried doing the same with Himawari L1 data, but the process kept running out of memory and crashing. Not sure why.
 
-# Installation
+## Installation
 
 ```bash
 pip install satpy[all]
@@ -15,11 +17,11 @@ pip install satpy[rayleigh]
 pip install satpy[generic_image]
 ```
 
-# Data download
+## Data download
 
 If using L2 data, it needs to be `ABI-L2-MCMIPC` for CONUS, or equivalent for other regions. For example, navigate to https://noaa-goes16.s3.amazonaws.com/index.html#ABI-L2-MCMIPC/2024/350/15/ and download [this file](https://noaa-goes16.s3.amazonaws.com/ABI-L2-MCMIPC/2024/350/15/OR_ABI-L2-MCMIPC-M6_G16_s20243501531173_e20243501533558_c20243501534081.nc).
 
-# Generation
+## Generation
 
 Having placed the file in, say, `/home/user/abi`, the following Python code should generate a GeoColor GeoTIFF image:
 
