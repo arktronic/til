@@ -1,4 +1,5 @@
 ---
+layout: post
 date: 2024-12-15
 title: Creating a GeoColor image from GOES-West/GOES-East L2 data using SatPy
 ---
