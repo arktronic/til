@@ -1,6 +1,6 @@
+theme: jekyll-theme-minimal
 title: til.arktronic.com
 description: Things I've learned, documented quickly
-theme: jekyll-theme-minimal
 author: arktronic
 exclude:
   - README.md
