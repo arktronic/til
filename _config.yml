@@ -1,5 +1,5 @@
 title: til.arktronic.com
 description: Things I've learned, documented quickly
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 exclude:
   - README.md
