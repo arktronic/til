@@ -2,6 +2,10 @@
 layout: post
 date: 2024-12-15
 title: Creating a GeoColor image from GOES-West/GOES-East L2 data using SatPy
+tags:
+- python
+- weather
+- satpy
 ---
 
 After a significant amount of trial and error, I figured out how to use SatPy to create a GeoColor image from GOES satellites. I tried doing the same with Himawari L1 data, but the process kept running out of memory and crashing. Not sure why.
